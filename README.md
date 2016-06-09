@@ -1,6 +1,13 @@
-## Cross-Platform NAT behavior discovery algorithms defined in RFC 3489
+## Cross-platform NAT behavior discovery (algorithms defined in RFC 3489) 
 
-<img src="http://g.recordit.co/Ai19os5JnH.gif" />
+<a href="http://www.netmanias.com/en/post/techdocs/6066/nat-stun/nat-behavior-discovery-using-classic-stun-rfc-3489">NAT Behavior Discovery Using Classic STUN (RFC 3489)</a>
+
+- Test II checks the presence of a NAT or symmetric UDP firewall, and discovers a full cone NAT
+- Test I' discovers a symmetric NAT
+- Test III discovers a restricted con NAT or port restricted cone NAT
+
+<img style="vertical-align:top" width="45%" src="http://www.netmanias.com/en/?m=attach&no=3603" />
+<img width="50%"src="http://g.recordit.co/RwB5sDZt89.gif" />
 
 ### Configuration
 
@@ -25,10 +32,3 @@ optional arguments:
   --version             show program's version number and exit
 
 ```
-
-### Discovery algorithms defined in RFC 3489
-
-
-
-<img style="vertical-align:top" width="45%" src="http://www.netmanias.com/en/?m=attach&no=3603" />
-<img style="vertical-align:top" width="50%" src="http://www.netmanias.com/en/?m=attach&no=3602" />
