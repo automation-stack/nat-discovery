@@ -1,4 +1,17 @@
-## Cross-platform NAT behavior discovery (algorithms defined in RFC 3489) 
+## Cross-platform NAT behavior discovery (algorithms defined in RFC 3489)
+
+### When it is useful?
+
+
+### Features
+
+  - Ready to use on your platform, no requirements, no installing, no administrative privileges
+  - Discovers following types:
+    - ```Full Cone```
+    - ```Restricted Cone```
+    - ```Port Restricted Cone```
+    - ```Symmetric```
+    - ```No NAT``` (Open Internet, Blocked, Symmetric UDP Firewall)
 
 <a href="http://www.netmanias.com/en/post/techdocs/6066/nat-stun/nat-behavior-discovery-using-classic-stun-rfc-3489">NAT Behavior Discovery Using Classic STUN (RFC 3489)</a>
 
