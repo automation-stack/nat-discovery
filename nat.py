@@ -90,11 +90,14 @@ def main():
             }, indent=4)
 
         if not options.exit:
-            while True:
-                time.sleep(1000)
+            try:
+                while True:
+                    time.sleep(1000)
+            except KeyboardInterrupt:
+                pass
 
     except KeyboardInterrupt:
-        sys.exit()
+        pass
 
 if __name__ == '__main__':
     main()

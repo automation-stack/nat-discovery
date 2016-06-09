@@ -84,9 +84,9 @@ Blocked = "Blocked"
 OpenInternet = "Open Internet"
 FullCone = "Full Cone"
 SymmetricUDPFirewall = "Symmetric UDP Firewall"
-RestricNAT = "Restric NAT"
-RestricPortNAT = "Restric Port NAT"
-SymmetricNAT = "Symmetric NAT"
+RestricNAT = "Restricted Cone"
+RestricPortNAT = "Port Restricted Cone"
+SymmetricNAT = "Symmetric"
 ChangedAddressError = "Meet an error, when do Test1 on Changed IP and Port"
 
 
